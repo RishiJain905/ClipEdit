@@ -65,7 +65,7 @@ export default function Home() {
                 that get clicks—all while you sleep.
               </p>
               <div className="flex items-center gap-4 flex-wrap mb-8">
-                <Button size="lg" className="bg-gray-900 hover:bg-gray-800 text-white shadow-xl shadow-gray-900/20 group">
+                <Button size="lg" className="bg-gray-900 hover:bg-gray-800 text-white shadow-xl shadow-gray-900/20 group" onClick={() => router.push("/signup")}>
                   Start Free Trial
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -369,7 +369,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <Button size="lg" className="bg-gray-900 hover:bg-gray-800 text-white shadow-xl">
+            <Button size="lg" className="bg-gray-900 hover:bg-gray-800 text-white shadow-xl" onClick={() => router.push("/signup")}>
               Try It Free - No CC Required
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
@@ -422,7 +422,7 @@ export default function Home() {
                   5 thumbnail designs
                 </li>
               </ul>
-              <Button className="w-full bg-white/10 hover:bg-white/20 text-white border border-white/20">
+              <Button className="w-full bg-white/10 hover:bg-white/20 text-white border border-white/20" onClick={() => router.push("/signup")}>
                 Start Free
               </Button>
             </Card>
@@ -608,7 +608,7 @@ export default function Home() {
             Join thousands of creators who've stopped wasting time on editing and started creating more.
           </p>
           <div className="flex items-center justify-center gap-4 flex-wrap">
-            <Button size="lg" className="bg-white hover:bg-gray-100 text-violet-600 shadow-xl">
+            <Button size="lg" className="bg-white hover:bg-gray-100 text-violet-600 shadow-xl" onClick={() => router.push("/signup")}>
               Start Free Trial
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
